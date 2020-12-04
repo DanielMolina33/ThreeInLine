@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css"/>
+  <title>Tres en linea</title>
+</head>
+<body>
+  <div class="boardContainer">
+    <h1 class="title">Tres en linea!</h1>
+    <canvas width="300" height="300" id="canvas" class="canvas"></canvas>
+  </div>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <script src="./js/index.min.js"></script>
+  <script>
+    const canvas = document.querySelector('#canvas');
+    const game = new TresEnLinea(canvas);
+  </script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+.boardContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+/* .canvas {
+  border: 1px solid #000;
+} */
+
+.swal-text {
+  font-size: 20px;
+}
