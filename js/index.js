@@ -336,6 +336,3 @@ class TresEnLinea {
     this.context.stroke();
   }
 }
-
-const canvas = document.getElementById('canvas');
-const game = new TresEnLinea(canvas);
